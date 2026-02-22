@@ -1,7 +1,5 @@
 python assignment 
 Assignment no 1.
-
-[Assignment no. 1.py](https://github.com/user-attachments/files/25160105/Assignment.no.1.py)
 #Creating the list 
 phones=["iphone","onepluse","samsung","googlepixel"]
 print(f"Original list :{phones}")
@@ -32,7 +30,6 @@ phones.sort(reverse=True)
 print(f"After reverse list element:{phones}")
 
 Assignment no. 2
-[Assignment no. 2.py](https://github.com/user-attachments/files/25160111/Assignment.no.2.py)
 #creating the set 
 my_set_1={11,15,13,14}
 my_set_2={12,16,14,18}
@@ -58,7 +55,6 @@ print(f"Difference (set 1- set 2):{difference_set_1_2 }")
 print(f"Difference (set 2- set 1):{difference_set_2_1 }")
 
 Assignment no. 3
-[Assignment no. 3.py](https://github.com/user-attachments/files/25160117/Assignment.no.3.py)
 #creating the tuple
 phones=("iphone","onepluse","samsung","googlepixel")
 print(f"Created tuple:{phones}")
@@ -89,7 +85,6 @@ combined_phone = phones + more_phones
 print(f"concatenation of tuple:{combined_phone}")
 
 Assignment no. 4
-[Assignment no. 4.py](https://github.com/user-attachments/files/25160122/Assignment.no.4.py)
 #create the dictionary 
 car = {'BMW':{'color':'White','year':'2020'},
        'Mercedes benz':{'color':'Red','year':'2022'},
@@ -116,7 +111,6 @@ car.update(new_car_add)
 print(f"dictonary after merging ",car)
 
 Assignment no .5
-[Assignment no.5.py](https://github.com/user-attachments/files/25160123/Assignment.no.5.py)
 #info of bankaccount
 class bankaccount:
     def __init__(self, account_number,balance=0.0):
