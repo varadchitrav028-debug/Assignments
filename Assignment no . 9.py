@@ -10,17 +10,17 @@ def main():
 
     if choice == "1":
         radius = float(input("Enter radius of the circle: "))
-        print(f"Area of Circle: {shapes.area_circle(radius):.2f}")
+        print(f"Area of Circle: {shapes.area_circle(radius):}")
 
     elif choice == "2":
         length = float(input("Enter length of the rectangle: "))
         width = float(input("Enter width of the rectangle: "))
-        print(f"Area of Rectangle: {shapes.area_rectangle(length, width):.2f}")
+        print(f"Area of Rectangle: {shapes.area_rectangle(length, width):}")
 
     elif choice == "3":
         base = float(input("Enter base of the triangle: "))
         height = float(input("Enter height of the triangle: "))
-        print(f"Area of Triangle: {shapes.area_triangle(base, height):.2f}")
+        print(f"Area of Triangle: {shapes.area_triangle(base, height):}")
 
     else:
         print("Invalid choice. Please select 1, 2, or 3.")
